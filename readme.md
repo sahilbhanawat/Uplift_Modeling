@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🎯 Uplift Modeling: Optimizing Marketing ROI</h1>
+  <h1> Uplift Modeling: Optimizing Marketing ROI</h1>
   <h3>Causal Inference to Identify "Persuadable" Customers</h3>
 
   <p>
@@ -18,7 +18,7 @@
 
 ---
 
-## 🧐 The Business Problem
+## The Business Problem
 **Context:** A retail company sends promotional emails to all customers. However, mass marketing is inefficient:
 * It wastes money on **"Sure Things"** (customers who would buy anyway).
 * It annoys **"Sleeping Dogs"** (customers who react negatively to ads).
@@ -28,7 +28,7 @@
 
 ---
 
-## 🏆 Business Impact (The "Money Slide")
+##  Business Impact (The "Money Slide")
 Using a **T-Learner Causal Model** on a blind test set of 8,500 customers, I simulated two strategies. The Uplift strategy significantly outperformed the baseline.
 
 | Strategy | Target Audience | Revenue | Cost | **Profit (ROI)** |
@@ -41,7 +41,7 @@ Using a **T-Learner Causal Model** on a blind test set of 8,500 customers, I sim
 
 ---
 
-## 🔬 Methodology & Tech Stack
+##  Methodology & Tech Stack
 
 ### The Approach: The "Four Quadrants"
 I used Causal Inference to categorize customers based on their **Conditional Average Treatment Effect (CATE)**:
@@ -60,10 +60,9 @@ I used Causal Inference to categorize customers based on their **Conditional Ave
 ---
 
 ## 📊 Visualizing Success
-*The chart below demonstrates the model's ability to segregate high-lift customers (Decile 9) from negative-lift customers (Decile 0).*
+*The chart demonstrates the model's ability to segregate high-lift customers (Decile 9) from negative-lift customers (Decile 0).*
 
-![Uplift Decile Chart](images/uplift_by_decile.png)
-*(Note: Ensure you save your bar chart as `uplift_by_decile.png` in an `images` folder)*
+
 
 ---
 
@@ -77,4 +76,5 @@ I used Causal Inference to categorize customers based on their **Conditional Ave
 ├── images/
 │   ├── uplift_by_decile.png               # Visualizations for README
 ├── README.md                              # Project Documentation
+
 └── requirements.txt                       # Python dependencies
