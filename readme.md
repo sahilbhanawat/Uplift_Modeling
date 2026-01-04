@@ -8,12 +8,7 @@
     <img src="https://img.shields.io/badge/Technique-Causal%20Inference-green" alt="Technique">
     <img src="https://img.shields.io/badge/Status-Completed-success" alt="Status">
   </p>
-
-  <p>
-    <a href="#-business-impact">Business Impact</a> •
-    <a href="#-the-solution">The Solution</a> •
-    <a href="#-how-to-run">How To Run</a>
-  </p>
+  
 </div>
 
 ---
@@ -78,3 +73,4 @@ I used Causal Inference to categorize customers based on their **Conditional Ave
 ├── README.md                              # Project Documentation
 
 └── requirements.txt                       # Python dependencies
+
