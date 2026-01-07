@@ -54,14 +54,14 @@ I used Causal Inference to categorize customers based on their **Conditional Ave
 
 ---
 
-## 📊 Visualizing Success
+##  Visualizing Success
 *The chart demonstrates the model's ability to segregate high-lift customers (Decile 9) from negative-lift customers (Decile 0).*
 
 
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```bash
 ├── data/
@@ -73,4 +73,5 @@ I used Causal Inference to categorize customers based on their **Conditional Ave
 ├── README.md                              # Project Documentation
 
 └── requirements.txt                       # Python dependencies
+
 
